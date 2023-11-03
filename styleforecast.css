@@ -1,0 +1,68 @@
+  .body {
+    background: #343D4B;
+  font-family: Montserrat;
+  font-size: 37px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  } 
+
+  .app-container {
+
+    border: 5px;
+  
+    background: #F30202
+  } 
+
+  .left-block { 
+
+  width: 480px;
+  height: 647px;
+  top: -312px;
+  left: -514px;
+  border: 5px;
+ 
+  background: linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0)),
+  linear-gradient(0deg, #021ef3, #021ef3);
+  }
+
+  .bottom {
+    width: 449px;
+    height: 265px;
+    top: 29px;
+    left: -506px;
+    border: 5px;
+    display: table-cell;
+    background: linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0)),
+    linear-gradient(0deg, #f3ef02, #f3ef02);
+
+  }
+
+
+  
+  .top {
+    width: 449px;
+    height: 166px;
+    top: -293px;
+    left: -507px;
+    border: 5px;
+    display: table-cell;
+    background: linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0)),
+    linear-gradient(0deg, #02f3df, #02f3df);
+
+  }
+
+
+
+  .right-block { 
+    
+    width: 480px;
+    height: 647px;
+    top: -312px;
+    left: -20px;
+    border: 5px;
+    
+    background: linear-gradient(0deg, rgba(217, 217, 217, 0), rgba(217, 217, 217, 0)),
+    linear-gradient(0deg, #4af302, #4af302);
+    }
+
