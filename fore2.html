@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="container">
-            <div class="board1">
+            <div class="board-left">
                 <div class="block">
                     <div class="topleft">
                         <div class="day">
@@ -24,11 +24,11 @@
                             20 Jun 2022
                         </div>
                         <div class="location">
-                            <div class="mark">
+                        <div class="mark">
                             
-                            </div>
-                            <div class="place">
-                                Biarritz, FR
+                        </div>
+                        <div class="place">
+                             Biarritz, FR
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            <div class="board2">
+            <div class="board-right">
                 <div class="block2">
                     <div class="top">
                         <div class="first">
@@ -120,16 +120,27 @@
                         </div>
                     </div>
                     <div class="bottom">
+            
                         <div class="mark2">
-                           
                         </div>
                         <div class="text">
                             Change Location
-                        </div>
                     </div>
+                    <button id="modalButton"><img src="images/location.jpg" height="33px" width="33px"></button>
+                        <div class="modal" id="modal">
+                            <select id="modalSelect">
+                              <option value="option1">Опция 1</option>
+                              <option value="option2">Опция 2</option>
+                              <option value="option3">Опция 3</option>
+                            </select>
+                            <button id="modalClose">Закрыть</button>
+                          </div>
+
+                    
+
                 </div>
             </div>
     </div>           
-
+    <script src='fore2.js'></script>
 </body>
 </html>
