@@ -1,6 +1,5 @@
 
-
-.body {
+    .body {
     --font-prmary: 'Montserrat';
 
     display: flex;
@@ -13,13 +12,15 @@
 .container {
     display: flex;
     background-color: #343D4B;
-    width: 1440px;
-    height: 1024px;
+    width: 100vw;
+    min-height: 100vh;
     justify-content: center;
     align-items: center;
 }
 
-.board1 {
+
+
+.board-left {
     display: flex;
     border-radius: 30px;
     background: linear-gradient(152deg, rgba(155, 218, 221, 0.9) -0.04%, rgba(83, 91, 230, 0.90) 100%),url("./images/board-bg.png");
@@ -46,7 +47,7 @@
     height: 38px;
     flex-shrink: 0;
     color: #FFF;
-    font-family: var(--font-prmary);
+    font-family: Montserrat;
     font-size: 37px;
     font-style: normal;
     font-weight: 700;
@@ -73,10 +74,14 @@
 } 
 
 .mark {
-    width: 27px;
+    
     height: 27px;
     flex-shrink: 0;
     padding-right: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .place {
@@ -123,10 +128,9 @@
     line-height: normal;
 }
 
-.board2 {
+.board-right {
     display: flex;
     flex-direction: row;
-    width: 493px;
     height: 666px;
     flex-shrink: 0;
     border-radius: 30px;
@@ -215,7 +219,7 @@
 
 .third {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .line3-title {
@@ -460,3 +464,19 @@
     letter-spacing: 0em;
     text-align: right;
 }
+
+ .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .modalOpen {
+    display: flex;
+  }
